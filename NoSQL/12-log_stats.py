@@ -16,5 +16,3 @@ for method in lst_methods:
 
 count = collection.count_documents({"method": "GET", "path": "/status"})
 print("{} status check".format(count))
-
-# count_documents cuenta documentos en la coleccion que coinciden con el metodo actual
