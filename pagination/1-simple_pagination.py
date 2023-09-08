@@ -35,8 +35,8 @@ class Server:
         """return the appropriate page of the dataset"""
 
         # asegurarse que page y page_size sean enteros y positivos
-        assert isinstance(page, int) and page > 0
-        assert isinstance(page_size, int) and page_size > 0
+        assert isinstance(page, int) and (page > 0)
+        assert isinstance(page_size, int) and (page_size > 0)
 
         # get data from the .csv
         data = self.dataset()
