@@ -75,7 +75,7 @@ class Server:
         else:
             prev_page = None
 
-        # return appropiate page data as a dictionary
+        # appropiate page data as a dictionary
         dic_response = {
             "page_size": page_size,
             "page": page,
@@ -85,4 +85,5 @@ class Server:
             "total_pages": total_pages
         }
 
+        # return appropiate page data as a dictionary
         return dic_response
