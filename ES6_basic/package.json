@@ -1,8 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "node",
-    "lint": "eslint . --fix"
+    "dev": "node"
   },
   "devDependencies": {
     "@babel/core": "^7.22.17",
