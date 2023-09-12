@@ -13,8 +13,8 @@ sudo apt upgrade
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 ```
 
-## Close and reopen the terminal to apply configuration changes
-## This step is important for NVM to work properly
+Close and reopen the terminal to apply configuration changes 
+This step is important for NVM to work properly
 
 ## Install the latest stable version of Node.js using NVM
 ```
