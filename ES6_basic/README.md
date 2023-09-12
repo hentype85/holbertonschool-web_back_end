@@ -42,7 +42,7 @@ Install ESLint using:
 ```
 npm install --save-dev eslint
 npx eslint --init
-npx eslint .
+npx eslint . --fix
 ```
 
 example "package.json":
