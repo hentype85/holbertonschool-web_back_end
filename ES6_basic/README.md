@@ -41,6 +41,8 @@ npm install --save-dev babel-jest @babel/core @babel/preset-env
 Install ESLint using:
 ```
 npm install --save-dev eslint
+npx eslint --init
+npx eslint .
 ```
 
 example "package.json":
