@@ -48,13 +48,16 @@ example "package.json":
 {
   "type": "module",
   "scripts": {
-    "dev": "node"
+    "dev": "node",
+    "test": "jest",
+    "lint": "./node_modules/.bin/eslint"
   },
   "devDependencies": {
     "@babel/core": "^7.22.17",
     "@babel/preset-env": "^7.22.15",
     "babel-jest": "^29.6.4",
     "eslint": "^8.49.0",
+    "eslint-plugin-react": "^7.33.2",
     "jest": "^29.6.4"
   }
 }

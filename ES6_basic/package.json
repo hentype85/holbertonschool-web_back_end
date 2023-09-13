@@ -1,7 +1,9 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "node"
+    "dev": "node",
+    "test": "jest",
+    "lint": "./node_modules/.bin/eslint"
   },
   "devDependencies": {
     "@babel/core": "^7.22.17",
