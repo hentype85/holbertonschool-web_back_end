@@ -5,6 +5,6 @@ export default function appendToEachArrayValue(array, appendString) {
       let value = array[i];
       array_new.push(appendString + value);
     }
-  
+
     return array_new;
-  }
+}
