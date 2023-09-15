@@ -62,3 +62,11 @@ example "package.json":
   }
 }
 ```
+
+
+* Extra
+* eslint install and config
+```
+npm install eslint -D
+./node_modules/.bin/eslint --init
+```
