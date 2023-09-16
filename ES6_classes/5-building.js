@@ -1,6 +1,6 @@
 export default class Building {
   constructor(sqft) {
-     // prevents instantiation of an abstract class instance
+    // prevents instantiation of an abstract class instance
     if (this.constructor !== Building) {
       throw new Error('Class extending Building must override evacuationWarningMessage');
     }
@@ -8,7 +8,7 @@ export default class Building {
     this._sqf = sqft;
   }
 
-  //getter
+  // getter
   get sqft() {
     return this._sqf;
   }
