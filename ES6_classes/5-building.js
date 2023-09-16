@@ -1,7 +1,9 @@
 export default class Building {
   constructor(sqft) {
-    // prevents instantiation of an abstract class instance
-    if (this.constructor !== Building) {
+    // Prevents instantiation of an abstract class instance
+    // check if this instance is not an instance of the Building class
+    // and if the evacuationWarningMessage method is not overridden
+    if (this.constructor !== Building && typeof this.evacuationWarningMessage !== 'function') {
       throw new Error('Class extending Building must override evacuationWarningMessage');
     }
 
