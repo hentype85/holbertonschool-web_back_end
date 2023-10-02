@@ -1,5 +1,4 @@
-/* eslint-disable */
-function getResponseFromAPI () {
+function getResponseFromAPI() {
   return new Promise(function () {});
 }
 
