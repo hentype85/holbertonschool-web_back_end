@@ -1,5 +1,5 @@
-import signUpUser from './4-user-promise';
-import uploadPhoto from './5-photo-reject';
+import signUpUser from './4-user-promise.js';
+import uploadPhoto from './5-photo-reject.js';
 
 export default async function handleProfileSignup(firstName, lastName, fileName) {
   const user = await signUpUser(firstName, lastName)
@@ -14,5 +14,5 @@ export default async function handleProfileSignup(firstName, lastName, fileName)
       value: data.toString(),
     }));
 
-  return Promise.resolve([user, photo]);
+  return [user, photo];
 }
