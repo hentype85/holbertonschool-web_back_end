@@ -7,7 +7,7 @@ sudo bash nodesource_setup.sh
 sudo apt install nodejs -y
 ```
 ```
-nodejs -v
+node -v
 npm -v
 ```
 
