@@ -1,5 +1,13 @@
 # ES6 Promises
 
+## Install NVM (Node Version Manager)
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+```
+
+* Close and reopen the terminal to apply configuration changes.
+* This step is important for NVM to work properly.
+
 ### Install NodeJS 12.11.x
 ```
 curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
