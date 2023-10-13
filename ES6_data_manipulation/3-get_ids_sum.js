@@ -1,4 +1,4 @@
-export default function getStudentIdsSum (students) {
+export default function getStudentIdsSum(students) {
   // check students is an array
   if (Object.getPrototypeOf(students) === Array.prototype) {
     const studentIds = students.map(student => student.id);
