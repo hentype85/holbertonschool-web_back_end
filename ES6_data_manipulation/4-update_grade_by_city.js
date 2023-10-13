@@ -1,4 +1,4 @@
-export default function updateStudentGradeByCity (students, city, newGrades) {
+export default function updateStudentGradeByCity(students, city, newGrades) {
   // check students and newGrades are an array
   if (Object.getPrototypeOf(students) !== Array.prototype) {
     return [];
@@ -7,9 +7,9 @@ export default function updateStudentGradeByCity (students, city, newGrades) {
     return [];
   }
 
-  return students.filter((student) => student.location === city).map((student) => {
+  return students.filter(student => student.location === city).map(student => {
 
-    const [newGrade] = newGrades.filter((grade) => grade.studentId === student.id);
+    const [newGrade] = newGrades.filter(grade => grade.studentId === student.id);
     return { ...student, grade: newGrade ? newGrade.grade : 'N/A' };
   });
 }
